@@ -2,7 +2,7 @@
 ---
 ### Normalization(정규화)
 > 값의 범위를 '최소 0 ~ 최대 1' 로 변환
-<img src="./LaTeX/MinMax.gif">
+<img src="./LaTeX/MinMax.gif" height="300px", width="300px">
 
 
 ### Standardization(표준화)
