@@ -2,7 +2,7 @@
 ---
 
 ### Data Preprocessing
-- [Normalization vs Standardization(translate article)](https://velog.io/@swsong/Normalization-vs-Standardization)
+- [Normalization vs Standardization](https://github.com/sw-song/TIL/blob/main/Data_Preprocessing/Normalization_vs_Standardization.ipynb)
 - Remove Outlier(Functionalization)
 - upsampling
 ---
