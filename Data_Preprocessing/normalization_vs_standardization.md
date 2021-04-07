@@ -12,6 +12,7 @@
 * $$\frac{x_i-mean(x)}{std(x)}$$
 
 ---
-아래 이미지 참고) [원문 링크](https://www.analyticsvidhya.com/blog/2020/04/feature-scaling-machine-learning-normalization-standardization/)
+<img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2020/03/NormVsStand_box_plots-1.png" height="30%" width="60%">
 
-<img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2020/03/NormVsStand_box_plots-1.png" height="50%" width="50%">
+[이미지 출처(원문) 바로가기](https://www.analyticsvidhya.com/blog/2020/04/feature-scaling-machine-learning-normalization-standardization/)
+
