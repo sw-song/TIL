@@ -2,7 +2,7 @@
 ---
 
 ### Data Preprocessing
-- normalization(Sungkim, 모두의 딥러닝 시즌1)
+- Normalization vs Standardization(translate article)
 - Remove Outlier(Functionalization)
 - upsampling
 ---
