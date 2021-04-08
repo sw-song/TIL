@@ -16,10 +16,9 @@ mkdir temp # 경로(폴더) 생성
 ```
 
 ```zsh
-# git 상태를 찍어보면 아래와 같이 출력
-git status
+git status # git 상태를 찍어보면 아래와 같이 출력
 ```
-
+> 출력
 ```
 현재 브랜치 main
 브랜치가 'origin/main'에 맞게 업데이트된 상태입니다.
