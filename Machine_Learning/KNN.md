@@ -31,7 +31,6 @@ clf.fit(X_train, y_train)
 ```python
 print("y_pred : {}".format(clf.predict(X_test)))
 ```
-> 출력
 ```
 y_pred : [1 0 1 0 1 0 0]
 ```
@@ -39,7 +38,6 @@ y_pred : [1 0 1 0 1 0 0]
 ```python
 print('Accuracy : {:.2f}'.format(clf.score(X_test, y_test))) # Classification의 score는 전체 값 중 맞춘 값의 %를 반환한다.
 ```
-> 출력
 ```
 Accuracy : 0.86
 ```
@@ -70,7 +68,6 @@ reg.fit(X_train, y_train)
 ```python
 print("y_pred : {}".format(reg.predict(X_test)))
 ```
-> 출력
 ```
 y_pred : [-0.054 0.357 1.137 -1.894 -1.139 -1.631 0.357 0.912 -0.447 -1.139]
 ```
@@ -78,7 +75,6 @@ y_pred : [-0.054 0.357 1.137 -1.894 -1.139 -1.631 0.357 0.912 -0.447 -1.139]
 ```python
 print('Accuracy : {:.2f}'.format(reg.score(X_test, y_test))) # regression의 score는 R^2값을 사용한다. 
 ```
-> 출력
 ```
 Accuracy : 0.83
 ```
