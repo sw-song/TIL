@@ -55,7 +55,7 @@ X_encoded # 출력
 
 
 
-**예시 코드**
+> 예시 코드
 ```python
 from sklearn.preprocessing import LabelBinarizer # sklearn.preprocessing에서 LabelBinarizer 패키지 사용
 
