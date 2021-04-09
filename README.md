@@ -23,6 +23,7 @@
 
 ### Terminal & Git
 - [touch vs mkdir (+git status)](https://github.com/sw-song/TIL/blob/main/Git/status.md)
+- branch, checkout
 ---
 
 ### Markdown

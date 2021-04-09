@@ -8,13 +8,22 @@
 - [LabelEncoder vs OneHotEncoder vs LabelBinarizer](https://github.com/sw-song/TIL/blob/main/Data_Preprocessing/sklearn_Encoders.md)
 ---
 
+### Machine Learning (Modeling)
+- [K-Nearest Neighbor Algorithm](https://github.com/sw-song/TIL/blob/main/Machine_Learning/KNN.md)
+
+---
+
 ### Model Evaluation
 - [Explain classification_report(from sklearn.metrics) with examples](https://github.com/sw-song/TIL/blob/main/Model_Evaluation/classification_report.md)
 - confusion_matrix(from sklearn.metrics)
 ---
 
+### Statistics
+- [R Square](https://github.com/sw-song/TIL/blob/main/Statistics/R_Square.md)
+
 ### Terminal & Git
 - [touch vs mkdir (+git status)](https://github.com/sw-song/TIL/blob/main/Git/status.md)
+- branch, checkout
 ---
 
 ### Markdown
