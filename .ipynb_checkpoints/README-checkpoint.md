@@ -17,7 +17,7 @@
 - [K-Nearest Neighbor Algorithm](https://github.com/sw-song/TIL/blob/main/Machine_Learning/KNN.md)
 - [Random Forest Classifier]
 - [Gradient Boosting Classifier]
-- [Hyper-Parameter Tuning, GridSearchCV(from sklearn.model_selection)]
+- [Hyper-Parameter Tuning, GridSearchCV(from sklearn.model_selection)](https://github.com/sw-song/TIL/blob/main/Machine_Learning/GridSearchCV.md)
 ---
 
 ### Model Evaluation
