@@ -8,8 +8,8 @@
 - [LabelEncoder vs OneHotEncoder vs LabelBinarizer](https://github.com/sw-song/TIL/blob/main/Data_Preprocessing/sklearn_Encoders.md)
 ---
 
-### Feature Engineeting
-- [feature_selection(from sklearn)]
+### Feature Engineering
+- [feature_selection(from sklearn) - RFE(Recursive Feature Elimination)](https://github.com/sw-song/TIL/blob/main/Feature_Engineering/rfe.md)
 
 ---
 
@@ -17,11 +17,13 @@
 - [K-Nearest Neighbor Algorithm](https://github.com/sw-song/TIL/blob/main/Machine_Learning/KNN.md)
 - [Random Forest Classifier]
 - [Gradient Boosting Classifier]
+- [Hyper-Parameter Tuning, GridSearchCV(from sklearn.model_selection)]
 ---
 
 ### Model Evaluation
 - [Explain classification_report(from sklearn.metrics) with examples](https://github.com/sw-song/TIL/blob/main/Model_Evaluation/classification_report.md)
 - [confusion_matrix(from sklearn.metrics)]
+- [Feature Importance]
 ---
 
 ### Statistics
