@@ -15,8 +15,8 @@
 
 ### Machine Learning (Modeling)
 - [K-Nearest Neighbor Algorithm](https://github.com/sw-song/TIL/blob/main/Machine_Learning/KNN.md)
-- [Random Forest Classifier]
-- [Gradient Boosting Classifier]
+- [Random Forest Classifier](https://github.com/sw-song/TIL/blob/main/Machine_Learning/RandomForestClassifier.md)
+- [Gradient Boosting Classifier](https://github.com/sw-song/TIL/blob/main/Machine_Learning/GradientBoostingClassifier.md)
 - [Hyper-Parameter Tuning, GridSearchCV(from sklearn.model_selection)](https://github.com/sw-song/TIL/blob/main/Machine_Learning/GridSearchCV.md)
 ---
 
@@ -31,7 +31,7 @@
 
 ### Terminal & Git
 - [touch vs mkdir (+git status)](https://github.com/sw-song/TIL/blob/main/Git/status.md)
-- branch, checkout
+- [branch, checkout](https://github.com/sw-song/TIL/blob/main/Git/brunch.md)
 ---
 
 ### Markdown
