@@ -8,9 +8,9 @@
 - [LabelEncoder vs OneHotEncoder vs LabelBinarizer](https://github.com/sw-song/TIL/blob/main/Data_Preprocessing/sklearn_Encoders.md)
 ---
 
-### Python, Pandas DataFrame
-- [reset_index(drop=True)]
-- [df[col].ffill()]
+### Pandas DataFrame
+- [reset_index(drop=True)](https://github.com/sw-song/TIL/blob/main/Pandas_DataFrame/reset_index.md)
+- [df[col].ffill()](https://github.com/sw-song/TIL/blob/main/Pandas_DataFrame/ffill.md)
 
 ### Feature Engineering
 - [feature_selection(from sklearn) - RFE(Recursive Feature Elimination)](https://github.com/sw-song/TIL/blob/main/Feature_Engineering/rfe.md)
@@ -22,6 +22,7 @@
 - [Random Forest Classifier](https://github.com/sw-song/TIL/blob/main/Machine_Learning/RandomForestClassifier.md)
 - [Gradient Boosting Classifier](https://github.com/sw-song/TIL/blob/main/Machine_Learning/GradientBoostingClassifier.md)
 - [Hyper-Parameter Tuning, GridSearchCV(from sklearn.model_selection)](https://github.com/sw-song/TIL/blob/main/Machine_Learning/GridSearchCV.md)
+- [make_pipeline(from sklearn.pipeline)]
 ---
 
 ### Model Evaluation
