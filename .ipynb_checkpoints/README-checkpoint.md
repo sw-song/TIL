@@ -37,6 +37,7 @@
 ### Terminal & Git
 - [touch vs mkdir (+git status)](https://github.com/sw-song/TIL/blob/main/Git/status.md)
 - [branch, checkout](https://github.com/sw-song/TIL/blob/main/Git/brunch.md)
+- [git fetch --all & git reset --hard origin/main (overwrite local branch with remote Repository)]
 ---
 
 ### Markdown
