@@ -11,6 +11,7 @@
 ### Pandas DataFrame
 - [reset_index(drop=True)](https://github.com/sw-song/TIL/blob/main/Pandas_DataFrame/reset_index.md)
 - [df[col].ffill()](https://github.com/sw-song/TIL/blob/main/Pandas_DataFrame/ffill.md)
+- [pd.melt(df, id_vars="y_class", var_name="X_features", value_name="values" )]
 
 ### Feature Engineering
 - [feature_selection(from sklearn) - RFE(Recursive Feature Elimination)](https://github.com/sw-song/TIL/blob/main/Feature_Engineering/rfe.md)
