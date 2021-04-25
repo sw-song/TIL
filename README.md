@@ -27,6 +27,9 @@
 - [make_pipeline(from sklearn.pipeline)]
 ---
 
+### Deep Learning (Modeling)
+- [data 'class_mode' and Model Compile 'loss']
+
 ### Model Evaluation
 - [Explain classification_report(from sklearn.metrics) with examples](https://github.com/sw-song/TIL/blob/main/Model_Evaluation/classification_report.md)
 - [confusion_matrix(from sklearn.metrics)](https://github.com/sw-song/TIL/blob/main/Model_Evaluation/confusion_matrix.md)
