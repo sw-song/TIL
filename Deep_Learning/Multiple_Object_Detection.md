@@ -30,3 +30,26 @@ c. 최종 레이어의 Output은 Object Detection Class 수 +1(배경)
 
 ### 5. Bounding Box Regression
 `Selective Search`를 통해 찾은 박스 위치는 정확하지 않기 때문에 Linear Regression 모델 학습을 통해 위치를 교정한다.
+
+
+## SPP-Net
+기존 CNN 모델은 Input size가 (224,224) 등으로(설계된대로) 고정되어야 했음. 즉, 이미지 원본을 모델로 직접 통과시키기 어려웠다.
+
+Input size가 고정되는 이유는 fc 레이어 때문(Conv 레이어는 Input size를 자유롭게 받을 수 있음).
+
+SPP(Spatial Pyramid Pooling)는 Conv 레이어와 fc 레이어의 중간에서 fc 레이어가 받아야 하는 고정된 input size로 vector 크기를 변환시켜주는 역할을 한다.
+
+### 1. CNN
+Conv layer에서 `selective search`를 수행한다.
+
+### 2. SPP
+`selective search` 결과를 고정된 크기로 반환시켜준다. 즉, 고정된 크기의 `feature vector`를 추출한다.
+
+### 3. Fully Connected Layer
+`feature vector`를 1차원 벡터로 펼친다.
+
+### 4. SVM(Support Vector Machine)
+이미지 클래스별로 이진 분류를 수행한다.
+
+### 5. Bounding Box Regressor
+Linear Regression 모델을 통해 box 결과값을 더 정교하게 교정한다.
