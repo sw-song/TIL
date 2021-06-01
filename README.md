@@ -25,6 +25,7 @@
 - [Hyper-Parameter Tuning, GridSearchCV(from sklearn.model_selection)](https://github.com/sw-song/TIL/blob/main/Machine_Learning/GridSearchCV.md)
 - [GridSearchCV(n_jobs=estimator=Model(), param_grid=param_grid, ... , **multiprocessing.cpu_count()**)]
 - [make_pipeline(from sklearn.pipeline)]
+- [XGBoost(Regression/Classification)](https://github.com/sw-song/TIL/blob/main/Machine_Learning/XGBoost.md)
 ---
 
 ### Deep Learning (Modeling)
