@@ -26,6 +26,7 @@
 - [GridSearchCV(n_jobs=estimator=Model(), param_grid=param_grid, ... , **multiprocessing.cpu_count()**)]
 - [make_pipeline(from sklearn.pipeline)]
 - [XGBoost(Regression/Classification)](https://github.com/sw-song/TIL/blob/main/Machine_Learning/XGBoost.md)
+- [lightgbm(Regression/Classification)](https://github.com/sw-song/TIL/blob/main/Machine_Learning/LGBM.md)
 ---
 
 ### Deep Learning (Modeling)
