@@ -45,7 +45,10 @@
 - [confusion_matrix(from sklearn.metrics)](https://github.com/sw-song/TIL/blob/main/Model_Evaluation/confusion_matrix.md)
 - [Feature Importance vs Permutation Feature Importance](https://github.com/sw-song/TIL/blob/main/Model_Evaluation/feature_importance.md)
 - [Precision and Recall in an Anomaly Detection Situation](https://github.com/sw-song/TIL/blob/main/Model_Evaluation/precision_vs_recall.md)
+- [ROC Curve +metrics.plot_roc_curve(model, X_test, y_test)](https://github.com/sw-song/TIL/blob/main/Model_Evaluation/precision_vs_recall.md)
+
 ---
+
 
 ### Statistics
 - [R Square](https://github.com/sw-song/TIL/blob/main/Statistics/R_Square.md)
