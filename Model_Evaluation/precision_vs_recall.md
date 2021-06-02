@@ -1,4 +1,4 @@
-# sklearn.metrics.classification_report
+# Precision and Recall in an anomaly detection situation
 > **reference :**
 > 1. [Classification : Precision and Recall](https://developers.google.com/machine-learning/crash-course/classification/precision-and-recall?hl=ko)
 > 2. [분류성능평가지표 - Precision(정밀도), Recall(재현률) and Accuracy(정확도)](https://sumniya.tistory.com/26)
