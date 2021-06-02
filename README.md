@@ -12,12 +12,16 @@
 - [reset_index(drop=True)](https://github.com/sw-song/TIL/blob/main/Pandas_DataFrame/reset_index.md)
 - [df[col].ffill()](https://github.com/sw-song/TIL/blob/main/Pandas_DataFrame/ffill.md)
 - [pd.melt(df, id_vars="y_class", var_name="X_features", value_name="values" )]
-
+---
 ### Feature Engineering
 - [feature_selection(from sklearn) - RFE(Recursive Feature Elimination)](https://github.com/sw-song/TIL/blob/main/Feature_Engineering/rfe.md)
 
 ---
 
+### Visualization
+- [Seaborn - basic visualization (flights dataset)](https://github.com/sw-song/TIL/blob/main/Visualization/sns_visualization.ipynb)
+
+---
 ### Machine Learning (Modeling)
 - [K-Nearest Neighbor Algorithm](https://github.com/sw-song/TIL/blob/main/Machine_Learning/KNN.md)
 - [Random Forest Classifier](https://github.com/sw-song/TIL/blob/main/Machine_Learning/RandomForestClassifier.md)
@@ -34,16 +38,17 @@
 - [Conv2D(.. **padding='same'**)]
 - [Conv2D and BatchNormalization]
 - [Multiple Object Detection with 2 Step(R-CNN/SPP-Net/Fast R-CNN/Faster R-CNN)](https://github.com/sw-song/TIL/blob/main/Deep_Learning/Multiple_Object_Detection_2step.md)
-
+---
 ### Model Evaluation
 - [Explain classification_report(from sklearn.metrics) with examples](https://github.com/sw-song/TIL/blob/main/Model_Evaluation/classification_report.md)
 - [confusion_matrix(from sklearn.metrics)](https://github.com/sw-song/TIL/blob/main/Model_Evaluation/confusion_matrix.md)
 - [Feature Importance vs Permutation Feature Importance](https://github.com/sw-song/TIL/blob/main/Model_Evaluation/feature_importance.md)
+- [Precision and Recall in an Anomaly Detection Situation](https://github.com/sw-song/TIL/blob/main/Model_Evaluation/precision_vs_recall.md)
 ---
 
 ### Statistics
 - [R Square](https://github.com/sw-song/TIL/blob/main/Statistics/R_Square.md)
-
+---
 ### Terminal & Git
 - [touch vs mkdir (+git status)](https://github.com/sw-song/TIL/blob/main/Git/status.md)
 - [branch, checkout](https://github.com/sw-song/TIL/blob/main/Git/brunch.md)
