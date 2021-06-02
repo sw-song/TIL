@@ -27,7 +27,7 @@ ROC 커브는 `False Positive Rate(FPR)`을 기준으로 `True Positive Rate(TPR
 ![image](https://glassboxmedicine.files.wordpress.com/2019/02/roc-curve-v2.png)
 - Glass box, Rachel Draelos
 
-> **code example*- 
+> **code example**
 ```python
 import matplotlib.pyplot as plt
 from sklearn import datasets, metrics
@@ -38,8 +38,14 @@ X, y = datasets.make_classification() # 분류 모델을 위한 데이터 자동
 X_train, X_test, y_train, y_test = train_test_split(X, y) # 학습, 검증 데이터셋 분리, default : 25%
 model = XGBClassifier()
 model.fit(X_train, y_train) # training data로 모델 학습
-model
-
 ```
-![image]()
+```python
+print(model.score(X_test, y_test))
+```
+0.92
+
+```python
+metrics.plot_roc_curve(model, X_test, y_test)
+```
+![image](https://github.com/sw-song/TIL/blob/main/Model_Evaluation/plot_roc_curve.png?raw=true)
 
