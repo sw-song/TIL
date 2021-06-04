@@ -20,7 +20,43 @@ reference :
 - 이를 두 행위자 최소최대 게임(two-player minimax game)이라 한다.
 - 학습이 거듭되면서 D(G(z))가 0에서 1까지 올라갈 수 있으며, 1에 가까울 수록 가짜 여부를 판별하기 어려워진다.
 
+## Code Example(Simple, Naver Engineering/yunjey)
+```python
+import torch
+import torch.nn as nn
 
+D = nn.Sequential(
+    nn.Linear(784, 128), # flattend image (28*28), hidden layer 128
+    nn.ReLU(),
+    nn.Linear(128, 1),
+    nn.Sigmoid() # classification - 0 or 1 (50%)
+)
 
+G = nn.Sequential(
+    nn.Linear(100, 128), # Latent vector (100), hidden layer 128
+    nn.ReLU(),
+    nn.Linear(128, 784), # output == flattend image (28*28)
+    nn.Tenh()
+)
+
+criterion = nn.BCELoss() # loss function
+
+d_optimizer = torch.optim.Adam(D.parameters(), lr=0.01)
+g_optimizer = torch.optim.Adam(G.parameters(), lr=0.01)
+
+# Assume x be real images of shape (batch_size, 784)
+# Assume z be random noise of shape (batch_size, 100)
+
+while True:
+    # train D
+    loss = criterion(D(x), 1) + criterion(D(G(z), 0)
+    loss.backward()
+    d_optimizer.step()
+
+    # train G
+    loss = criterion(D(G(z)), 1)
+    loss.backward()
+    g_optimizer.step()
+```
 
 
