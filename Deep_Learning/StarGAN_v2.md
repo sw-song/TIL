@@ -24,8 +24,18 @@ reference :
 
 ## (a) Generator
 The generator translates an input image into an output image reflecting the domain-specific style code.
-- G(Generator)는 이미지(X-metrics)와 스타일(s-vector)을 input으로 받고 목표로 하는 도메인이 반영된 이미지를 출력하도록 한다. 
+- G(Generator)는 이미지(X-metrics)와 스타일(s-vector)을 input으로 받고 목표로 하는 도메인이 반영된 이미지를 반환한다.
 
 ## (b) Mapping network
 The mapping network transforms a latent code into style codes for multiple domains, one of which is randomly selected during training.
-- F
+- F(Mapping Network)는 랜덤으로 생성되는 `latent vacter 'z'`를 input으로 받고 주어진 도메인을 모두 커버하는 `style vector 's'`를 반환한다.
+
+## (c) Style encoder
+The style encoder extracts the style code of an image, allowing the generator to perform reference-guided image synthesis.
+- E(Style Encoder)는 이미지(X-metrics)를 input으로 받고 주어진 도메인에 해당하는 `style vector 's'`를 반환한다.
+
+## (d) Discriminator
+The discriminator distinguishes between real and fake images from multiple domains.
+- D(Multiple output Discriminator / Multitask Discriminator)는 각 도메인을 담당하는 branch들로 구성되어 있으며 각 branch는 G(Generator)가 생성해낸 G(x,s) 이미지를 input으로 받고 이진분류(sigmoid)를 통해 1 혹은 0을 돌려준다. 1이 반환되었다면 G(x,s)가 진짜이미지처럼 잘 생성된 것을 의미한다.
+
+
