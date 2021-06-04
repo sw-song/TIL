@@ -23,4 +23,9 @@ reference :
 ![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fcv0Rdo%2FbtqCSXrGFiK%2FnpcOMdpkHvRY2KSjFaDkq0%2Fimg.png)
 
 ## (a) Generator
-The 
+The generator translates an input image into an output image reflecting the domain-specific style code.
+- G(Generator)는 이미지(X-metrics)와 스타일(s-vector)을 input으로 받고 목표로 하는 도메인이 반영된 이미지를 출력하도록 한다. 
+
+## (b) Mapping network
+The mapping network transforms a latent code into style codes for multiple domains, one of which is randomly selected during training.
+- F
