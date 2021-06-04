@@ -5,6 +5,7 @@ reference :
 2. [ConditionalGAN(CGAN)](https://wiserloner.tistory.com/1202)
 3. [생성적 적대 신경망](https://ebbnflow.tistory.com/167)
 4. [논문으로 본 적대적 생성 신경망 GAN](http://scimonitors.com/toagi③-적대적-생성-신경망-gan이란/)
+5. [NEVER Engineering | 1시간만에 GAN(Generative Adversarial Network) 완전 정복하기](https://tv.naver.com/v/1947034)
 ---
 > GAN(Generative Adversarial Network)은 특정 정보를 생성(Generative)하는 항과 이와 대립(Adversarial)하는 항으로 이루어진 망(Network)을 뜻한다.
 
@@ -20,7 +21,7 @@ reference :
 - 이를 두 행위자 최소최대 게임(two-player minimax game)이라 한다.
 - 학습이 거듭되면서 D(G(z))가 0에서 1까지 올라갈 수 있으며, 1에 가까울 수록 가짜 여부를 판별하기 어려워진다.
 
-## Code Example(Simple, Naver Engineering/yunjey)
+## Concept Code - Naver Engineering/최윤제
 ```python
 import torch
 import torch.nn as nn
