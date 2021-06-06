@@ -1,6 +1,7 @@
 # TIL(Today I Learned) - Statistics, Data Science, ML/DL, Python, Git
 
 
+
 ### Data Preprocessing
 - [Normalization vs Standardization](https://github.com/sw-song/TIL/blob/main/Data_Preprocessing/Normalization_vs_Standardization.md)
 - [Remove Outlier (Functionalization)](https://github.com/sw-song/TIL/blob/main/Data_Preprocessing/remove_outlier.md)
@@ -41,6 +42,7 @@
 - [GAN - Basic Concept](https://github.com/sw-song/TIL/blob/main/Deep_Learning/GAN.md)
 - [StarGAN - Basic Concept](https://github.com/sw-song/TIL/blob/main/Deep_Learning/StarGAN.md)
 - [StarGAN v2 - Basic Concept](https://github.com/sw-song/TIL/blob/main/Deep_Learning/StarGAN_v2.md)
+- [[Paper] StarGAN v2: Diverse Image Synthesis for Multiple Domains - Yunjey Choi, Youngjung Uh, Jaejun Yoo, Jung-Woo Ha](https://github.com/sw-song/TIL/blob/main/Deep_Learning/Paper_StarGAN_v2.md)
 ---
 
 ### Model Evaluation
