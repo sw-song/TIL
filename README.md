@@ -62,6 +62,8 @@
 
 ### R
 - [Tutorial : Getting Started | Rachael Tatman | Kaggle](https://github.com/sw-song/TIL/blob/main/R/getting-started-in-r-first-steps.ipynb)
+- [Tutorial : Load Data | Rachael Tatman | Kaggle](https://github.com/sw-song/TIL/blob/main/R/getting-started-in-r-load-data-into-r.ipynb)
+---
 
 ### Terminal & Git
 - [touch vs mkdir (+git status)](https://github.com/sw-song/TIL/blob/main/Git/status.md)
