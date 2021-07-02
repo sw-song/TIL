@@ -63,6 +63,7 @@
 ### R
 - [Tutorial : Getting Started | Rachael Tatman | Kaggle](https://github.com/sw-song/TIL/blob/main/R/getting-started-in-r-first-steps.ipynb)
 - [Tutorial : Load Data | Rachael Tatman | Kaggle](https://github.com/sw-song/TIL/blob/main/R/getting-started-in-r-load-data-into-r.ipynb)
+- [Tutorial : Summarize Data | Rachael Tatman | Kaggle](https://github.com/sw-song/TIL/blob/main/R/getting-started-in-r-summarize-data.ipynb)
 ---
 
 ### Terminal & Git
