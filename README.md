@@ -60,6 +60,9 @@
 - [R Square](https://github.com/sw-song/TIL/blob/main/Statistics/R_Square.md)
 ---
 
+### R
+- [Tutorial : Getting Started | Rachael Tatman | Kaggle](https://github.com/sw-song/TIL/blob/main/R/getting-started-in-r-first-steps.ipynb)
+
 ### Terminal & Git
 - [touch vs mkdir (+git status)](https://github.com/sw-song/TIL/blob/main/Git/status.md)
 - [branch, checkout](https://github.com/sw-song/TIL/blob/main/Git/brunch.md)
