@@ -66,6 +66,7 @@
 - [Tutorial : (3) Summarize Data | Rachael Tatman | Kaggle](https://github.com/sw-song/TIL/blob/main/R/getting-started-in-r-summarize-data.ipynb)
 - [Tutorial : (4) Graphing Data | Rachael Tatman | Kaggle](https://github.com/sw-song/TIL/blob/main/R/getting-started-in-r-graphing-data.ipynb)
 - [Tutorial : Introduction to machine learning in R | Cam Nugent | Kaggle](https://github.com/sw-song/TIL/blob/main/R/introduction-to-machine-learning-in-r-tutorial.ipynb)
+---
 
 ### Terminal & Git
 - [touch vs mkdir (+git status)](https://github.com/sw-song/TIL/blob/main/Git/status.md)
@@ -75,6 +76,7 @@
 
 ### Server
 - [System log vs User log](https://github.com/sw-song/TIL/blob/main/Server/log.md)
+- [Scheduling](https://github.com/sw-song/TIL/blob/main/Server/scheduling.md)
 
 ---
 
