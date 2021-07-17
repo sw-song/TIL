@@ -35,7 +35,7 @@
 > INNER JOIN (A & B)
 ```sql
 SELECT A.Key, A.Sex, A.Name, B.Age FROM TableA AS A
-JOIN TableB B ON A.Key = B.Key
+JOIN TableB AS B ON A.Key = B.Key
 ```
 
 | Key   | Sex | Name | Age |
@@ -53,7 +53,7 @@ JOIN TableB B ON A.Key = B.Key
 > 1. LEFT JOIN (A)
 ```sql
 SELECT A.Key, A.Sex, A.Name, B.Age FROM TableA AS A
-LEFT JOIN TableB B ON A.Key = B.Key
+LEFT JOIN TableB AS B ON A.Key = B.Key
 ```
 | Key   | Sex | Name | Age |
 | :--:  |:-:  |:-:   | :-: |
@@ -66,7 +66,7 @@ LEFT JOIN TableB B ON A.Key = B.Key
 > 2. RIGHT JOIN (B)
 ```sql
 SELECT A.Key, A.Sex, A.Name, B.Age FROM TableA AS A
-RIGHT JOIN TableB B ON A.Key = B.Key
+RIGHT JOIN TableB AS B ON A.Key = B.Key
 ```
 | Key   | Sex | Name | Age |
 | :--:  | :-:    | :-:    |  :-:|
@@ -80,10 +80,10 @@ RIGHT JOIN TableB B ON A.Key = B.Key
 - MySQL은 `FULL OUTER JOIN`을 별도로 지원하지 않는다. 따라서 `union`을 통해 `LEFT JOIN`과 `RIGHT JOIN`의 결과를 합치는 방식을 사용한다.
 ```sql
 SELECT A.Key, A.Sex, A.Name, B.Age FROM TableA AS A
-LEFT JOIN TableB B ON A.Key = B.Key
+LEFT JOIN TableB AS B ON A.Key = B.Key
 union
 SELECT A.Key, A.Sex, A.Name, B.Age FROM TableA AS A
-RIGHT JOIN TableB B ON A.Key = B.Key
+RIGHT JOIN TableB AS B ON A.Key = B.Key
 ```
 | Key   | Sex | Name | Age |
 | :--:  |:-:  |:-:   | :-: |
@@ -103,7 +103,7 @@ RIGHT JOIN TableB B ON A.Key = B.Key
 > LEFT JOIN (A-B)
 ```sql
 SELECT A.Key, A.Sex, A.Name FROM TableA AS A
-LEFT JOIN TableB B ON A.Key = B.Key
+LEFT JOIN TableB AS B ON A.Key = B.Key
 WHERE B.Key is NULL
 ```
 
