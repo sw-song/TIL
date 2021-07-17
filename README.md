@@ -68,6 +68,9 @@
 - [Tutorial : Introduction to machine learning in R | Cam Nugent | Kaggle](https://github.com/sw-song/TIL/blob/main/R/introduction-to-machine-learning-in-r-tutorial.ipynb)
 ---
 
+### SQL
+- [INNER JOIN vs OUTER JOIN](https://github.com/sw-song/TIL/blob/main/SQL/inner_outer_join.md)
+
 ### Terminal & Git
 - [touch vs mkdir (+git status)](https://github.com/sw-song/TIL/blob/main/Git/status.md)
 - [branch, checkout](https://github.com/sw-song/TIL/blob/main/Git/brunch.md)

@@ -4,6 +4,7 @@
 ![image](https://blog.kakaocdn.net/dn/bbcaHr/btqCUytJ73t/dfNLQnhKypZ3fgJ4JjpqZk/img.jpg)
 
 
+## Sample Table Info-
 
 > TableA
 
@@ -21,7 +22,7 @@
 | Key   | Height | Weight | Age |
 | :--:  | :-:    | :-:    |  :-:|
 | 201   | 170    | 70     | 18  |
-| 202   | 185    | 94     | 22  |
+| 202   | 161    | 52     | 22  |
 | 203   | 166    | 57     | 22  |
 | 204   | 171    | 79     | 22  |
 | 206   | 156    | 48     | 26  |
@@ -95,18 +96,19 @@ RIGHT JOIN TableB B ON A.Key = B.Key
 | 204   | <null>| <null> | 22  |
 | 206   | F     | MINA | 26  |
 
-## OUTER JOIN - except INNER JOIN
+## OUTER JOIN - except INNER JOIN 
 - `OUTER JOIN`시 양쪽 테이블의 공통 값은 제외할 때가 있다. 이를 위한 별도의 문법은 없기 때문에 `WHERE`로 처리해준다.
 - 아래 예시는 Table A에만 존재하는 Key값과 해당 행을 모두 불러온다.(남성만 집계)
 
+> LEFT JOIN (A-B)
 ```sql
-SELECT * FROM TableA AS A
+SELECT A.Key, A.Sex, A.Name FROM TableA AS A
 LEFT JOIN TableB B ON A.Key = B.Key
 WHERE B.Key is NULL
 ```
 
-| Key   | Sex | Name | Age |
-| :--:  |:-:|:-:|:-:|
-| 202     | M  | JAY | 18  |
-| 204    | M | MINSU| 21 |
-| 205   | M | TOM | 18 |
+| Key   | Sex | Name | 
+| :--:  |:-:  |:-:   |
+| 102   | M   | JAY   |
+| 104   | M   | MINSU |
+| 105   | M   | TOM   |
