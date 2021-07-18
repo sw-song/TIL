@@ -73,6 +73,8 @@
 - [PROGRAMMERS | RECURSIVE + UNION ALL + GROUP BY](https://github.com/sw-song/TIL/blob/main/SQL/recursive.md)
 - [PROGRAMMERS | IFNULL](https://github.com/sw-song/TIL/blob/main/SQL/ifnull.md)
 - [PROGRAMMERS | JOIN + WHERE or Subquery](https://github.com/sw-song/TIL/blob/main/SQL/join_without_null.md)
+- [PROGRAMMERS | Compare dates, INNER JOIN](https://github.com/sw-song/TIL/blob/main/SQL/compare_dates.md)
+- [INNER JOIN 2 Table vs FROM 2 Table](https://github.com/sw-song/TIL/blob/main/SQL/join_and_from_2_table.md)
 
 ---
 
