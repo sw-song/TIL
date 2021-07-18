@@ -70,7 +70,7 @@
 
 ### SQL
 - [INNER JOIN vs OUTER JOIN](https://github.com/sw-song/TIL/blob/main/SQL/inner_outer_join.md)
-- [RECURSIVE + UNION + GROUP BY](https://github.com/sw-song/TIL/blob/main/SQL/recursive.md)
+- [RECURSIVE + UNION ALL + GROUP BY](https://github.com/sw-song/TIL/blob/main/SQL/recursive.md)
 
 ---
 
