@@ -72,6 +72,7 @@
 - [INNER JOIN vs OUTER JOIN](https://github.com/sw-song/TIL/blob/main/SQL/inner_outer_join.md)
 - [PROGRAMMERS | RECURSIVE + UNION ALL + GROUP BY](https://github.com/sw-song/TIL/blob/main/SQL/recursive.md)
 - [PROGRAMMERS | IFNULL](https://github.com/sw-song/TIL/blob/main/SQL/ifnull.md)
+- [PROGRAMMERS | JOIN + WHERE or Subquery](https://github.com/sw-song/TIL/blob/main/SQL/join_without_null.md)
 
 ---
 
