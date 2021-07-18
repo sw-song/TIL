@@ -61,22 +61,22 @@
 ---
 
 ### R
-- [Tutorial : (1) Getting Started | Rachael Tatman | Kaggle](https://github.com/sw-song/TIL/blob/main/R/getting-started-in-r-first-steps.ipynb)
-- [Tutorial : (2) Load Data | Rachael Tatman | Kaggle](https://github.com/sw-song/TIL/blob/main/R/getting-started-in-r-load-data-into-r.ipynb)
-- [Tutorial : (3) Summarize Data | Rachael Tatman | Kaggle](https://github.com/sw-song/TIL/blob/main/R/getting-started-in-r-summarize-data.ipynb)
-- [Tutorial : (4) Graphing Data | Rachael Tatman | Kaggle](https://github.com/sw-song/TIL/blob/main/R/getting-started-in-r-graphing-data.ipynb)
-- [Tutorial : Introduction to machine learning in R | Cam Nugent | Kaggle](https://github.com/sw-song/TIL/blob/main/R/introduction-to-machine-learning-in-r-tutorial.ipynb)
+- [*Tutorial : (1) Getting Started | Rachael Tatman | Kaggle](https://github.com/sw-song/TIL/blob/main/R/getting-started-in-r-first-steps.ipynb)
+- [*Tutorial : (2) Load Data | Rachael Tatman | Kaggle](https://github.com/sw-song/TIL/blob/main/R/getting-started-in-r-load-data-into-r.ipynb)
+- [*Tutorial : (3) Summarize Data | Rachael Tatman | Kaggle](https://github.com/sw-song/TIL/blob/main/R/getting-started-in-r-summarize-data.ipynb)
+- [*Tutorial : (4) Graphing Data | Rachael Tatman | Kaggle](https://github.com/sw-song/TIL/blob/main/R/getting-started-in-r-graphing-data.ipynb)
+- [*Tutorial : Introduction to machine learning in R | Cam Nugent | Kaggle](https://github.com/sw-song/TIL/blob/main/R/introduction-to-machine-learning-in-r-tutorial.ipynb)
 ---
 
 ### SQL
 - [INNER JOIN vs OUTER JOIN](https://github.com/sw-song/TIL/blob/main/SQL/inner_outer_join.md)
-- [PROGRAMMERS | RECURSIVE + UNION ALL + GROUP BY](https://github.com/sw-song/TIL/blob/main/SQL/recursive.md)
-- [PROGRAMMERS | IFNULL](https://github.com/sw-song/TIL/blob/main/SQL/ifnull.md)
-- [PROGRAMMERS | JOIN | Subquery I](https://github.com/sw-song/TIL/blob/main/SQL/join_without_null.md)
-- [PROGRAMMERS | Compare dates, INNER JOIN](https://github.com/sw-song/TIL/blob/main/SQL/compare_dates.md)
-- [INNER JOIN 2 Table | FROM 2 Table](https://github.com/sw-song/TIL/blob/main/SQL/join_and_from_2_table.md)
-- [PROGRAMMERS | JOIN | Subquery II](https://github.com/sw-song/TIL/blob/main/SQL/order_by_datetime.md)
-- [PROGRAMMERS | Subquery + WHERE OR () AND | JOIN | JOIN .. NOT LIKE](https://github.com/sw-song/TIL/blob/main/SQL/intact_to_spayed.md)
+- [*PROGRAMMERS | RECURSIVE + UNION ALL + GROUP BY](https://github.com/sw-song/TIL/blob/main/SQL/recursive.md)
+- [*PROGRAMMERS | IFNULL](https://github.com/sw-song/TIL/blob/main/SQL/ifnull.md)
+- [*PROGRAMMERS | JOIN / Subquery I](https://github.com/sw-song/TIL/blob/main/SQL/join_without_null.md)
+- [*PROGRAMMERS | Compare dates, INNER JOIN](https://github.com/sw-song/TIL/blob/main/SQL/compare_dates.md)
+- [INNER JOIN 2 Table / FROM 2 Table](https://github.com/sw-song/TIL/blob/main/SQL/join_and_from_2_table.md)
+- [*PROGRAMMERS | JOIN / Subquery II](https://github.com/sw-song/TIL/blob/main/SQL/order_by_datetime.md)
+- [*PROGRAMMERS | Subquery + WHERE OR () AND / JOIN / JOIN .. NOT LIKE](https://github.com/sw-song/TIL/blob/main/SQL/intact_to_spayed.md)
 ---
 
 ### Terminal & Git
