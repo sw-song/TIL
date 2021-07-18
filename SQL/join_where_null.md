@@ -1,3 +1,7 @@
+## Reference
+1. [Tutorial|MySQL Subquery](https://www.mysqltutorial.org/mysql-subquery/)
+
+---
 
 ## 프로그래머스 | IS NULL | NULL 처리하기
 
@@ -56,6 +60,7 @@ Spice의 ID는 ANIMAL_INS에 없으므로, Spice의 데이터는 유실되었습
 |A349990	|Spice|
 
 ---
+
 1. 차집합을 구하는 문제다. `ANIMAL_OUTS` 테이블에서 `ANIMAL_INS` 와 중복되는 값을 제외하고 남은 값을 가져오면 된다.
 
 2. 우선, SQL에서 차집합을 위한 문법은 별도로 제공하지 않는다. 따라서 JOIN 후 WHERE 문으로 `ANIMAL_INS`에 존재하는 값을 빼주면 되겠다.
@@ -69,6 +74,21 @@ FROM ANIMAL_INS I
 RIGHT JOIN ANIMAL_OUTS O ON I.ANIMAL_ID = O.ANIMAL_ID -- ANIMAL_OUTS를 집계 기준 열로 한다. 
 WHERE I.ANIMAL_ID IS NULL -- 차집합(`ANIMAL_OUTS`- `ANIMAL_INS`)
 ORDER BY O.ANIMAL_ID, O.NAME -- 문제에서 id, name 순으로 정렬 요구
+```
+|ANIMAL_ID	|NAME|
+|:--:|:--:|
+|A349480	|Daisy|
+|A349733	|Allie|
+|A349990	|Spice|
+|A362137	|*Darcy|
+
+5. 혹은 subquery를 사용할 수도 있다.
+```SQL
+SELECT ANIMAL_ID, NAME FROM ANIMAL_OUTS
+WHERE ANIMAL_ID NOT IN (
+    SELECT ANIMAL_ID FROM ANIMAL_INS
+)
+ORDER BY ANIMAL_ID, NAME
 ```
 |ANIMAL_ID	|NAME|
 |:--:|:--:|
