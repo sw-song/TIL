@@ -78,6 +78,7 @@
 - [*PROGRAMMERS | JOIN / Subquery II](https://github.com/sw-song/TIL/blob/main/SQL/order_by_datetime.md)
 - [*PROGRAMMERS | Subquery + WHERE OR () AND / JOIN / JOIN .. NOT LIKE](https://github.com/sw-song/TIL/blob/main/SQL/intact_to_spayed.md)
 - [*PROGRAMMERS | WHERE LIKE - %upper or lower?% / WHERE BINARY](https://github.com/sw-song/TIL/blob/main/SQL/where_like_upper_lower.md)
+- [*PROGRAMMERS | IF / CASE](https://github.com/sw-song/TIL/blob/main/SQL/if_or_case.md)
 ---
 
 ### Terminal & Git
