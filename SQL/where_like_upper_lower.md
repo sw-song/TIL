@@ -1,3 +1,6 @@
+## Reference
+1. [[mysql] like로 대소문자 구별하여 검색하기 ](https://blog.jmkim87.com/164)
+
 ## 프로그래머스 | String, Date | 이름에 el이 들어가는 동물 찾기
 
 ### 문제 설명
