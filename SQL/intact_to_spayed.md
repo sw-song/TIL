@@ -104,3 +104,17 @@ ORDER BY O.ANIMAL_ID, O.ANIMAL_TYPE, O.NAME
 |:--:|:--:|:--:|
 |A382192	|Dog	|Maxwell 2|
 |A410330	|Dog	|Chewy|
+
+5. 논리 연산자가 복잡하다면 `NOT LIKE`을 사용할 수도 있다. 그러나 데이터 특성이 Unique하지 않다면 집계시 조심해서 사용해야 한다.
+
+```SQL
+SELECT O.ANIMAL_ID, O.ANIMAL_TYPE, O.NAME FROM ANIMAL_OUTS O
+JOIN ANIMAL_INS I ON O.ANIMAL_ID = I.ANIMAL_ID
+WHERE O.SEX_UPON_OUTCOME NOT LIKE 'Intact%' -- 입양 당시 중성화 O
+  AND I.SEX_UPON_INTAKE LIKE 'Intact%' -- 보호소 당시 중성화 X
+ORDER BY O.ANIMAL_ID, O.ANIMAL_TYPE, O.NAME
+```
+|ANIMAL_ID	|ANIMAL_TYPE|	NAME|
+|:--:|:--:|:--:|
+|A382192	|Dog	|Maxwell 2|
+|A410330	|Dog	|Chewy|
