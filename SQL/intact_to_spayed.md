@@ -100,3 +100,7 @@ WHERE (
 ORDER BY O.ANIMAL_ID, O.ANIMAL_TYPE, O.NAME
 ```
 
+|ANIMAL_ID	|ANIMAL_TYPE|	NAME|
+|:--:|:--:|:--:|
+|A382192	|Dog	|Maxwell 2|
+|A410330	|Dog	|Chewy|
