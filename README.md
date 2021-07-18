@@ -77,6 +77,7 @@
 - [INNER JOIN 2 Table / FROM 2 Table](https://github.com/sw-song/TIL/blob/main/SQL/join_and_from_2_table.md)
 - [*PROGRAMMERS | JOIN / Subquery II](https://github.com/sw-song/TIL/blob/main/SQL/order_by_datetime.md)
 - [*PROGRAMMERS | Subquery + WHERE OR () AND / JOIN / JOIN .. NOT LIKE](https://github.com/sw-song/TIL/blob/main/SQL/intact_to_spayed.md)
+- [*PROGRAMMERS | WHERE LIKE - %upper or lower?% / WHERE BINARY](https://github.com/sw-song/TIL/blob/main/SQL/where_like_upper_lower.md)
 ---
 
 ### Terminal & Git

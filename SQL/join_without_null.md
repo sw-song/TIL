@@ -59,6 +59,7 @@ Spice의 ID는 ANIMAL_INS에 없으므로, Spice의 데이터는 유실되었습
 |A349733	|Allie|
 |A349990	|Spice|
 
+> 본 문제는 Kaggle의 "Austin Animal Center Shelter Intakes and Outcomes"에서 제공하는 데이터를 사용하였으며 ODbL의 적용을 받습니다.
 ---
 
 1. 차집합을 구하는 문제다. `ANIMAL_OUTS` 테이블에서 `ANIMAL_INS` 와 중복되는 값을 제외하고 남은 값을 가져오면 된다.
