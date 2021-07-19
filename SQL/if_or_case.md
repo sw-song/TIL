@@ -1,6 +1,6 @@
 ## Reference
-1. case ..
-2. if ..
+1. [[MySQL] CASE 문법 사용하기](https://info-lab.tistory.com/305)
+2. [Mysql - LIKE, IF, CASE](https://sikaleo.tistory.com/36)
 
 
 ## 프로그래머스 | String, Date | 이름에 el이 들어가는 동물 찾기
@@ -46,5 +46,45 @@ ANIMAL_OUTS 테이블은 동물 보호소에서 입양 보낸 동물의 정보�
 
 2. 데이터 테이블을 직접적으로 수정하는 `ALTER`을 사용하지 않고(SQL 테스트는 DDL을 지원하지 않는다), 1회성 집계를 위해 `IF` 혹은 `case` 를 사용해 문제를 해결해야 한다.
 
-3. 문자열 일부를 검사하는 `LIKE` 구문을 활용해야 한다.
+3. 문자열 일부를 검사하는 `LIKE` 구문을 활용해야 한다. 문자열 2개를 OR 로 검색해야 하는 것도 유의.
 
+4. 먼저 `case`를 사용하면 아래와 같이 작성할 수 있다.
+
+```SQL
+SELECT ANIMAL_ID, 
+       NAME,
+      (CASE
+         WHEN SEX_UPON_INTAKE LIKE '%Neutered%'
+           OR SEX_UPON_INTAKE LIKE '%Spayed%'
+         THEN 'O'
+         ELSE 'X'
+       END) AS '중성화'
+FROM ANIMAL_INS
+```
+|ANIMAL_ID|	NAME|	중성화|
+|:--:|:--:|:--:|
+|A380506|	Ruby|	O|
+|A381173|	Pepper|	O|
+|A381217|	Cherokee|	O|
+|A382192|	Maxwell 2|	X|
+|A382251|	Princess|	O|
+
+5. `if`를 사용하면 아래와 같다.
+
+```SQL
+SELECT ANIMAL_ID,
+       NAME,
+       IF(
+             SEX_UPON_INTAKE LIKE '%Neutered%' 
+          OR SEX_UPON_INTAKE LIKE '%Spayed%',
+             'O','X') AS '중성화'
+FROM ANIMAL_INS
+```
+
+|ANIMAL_ID|	NAME|	중성화|
+|:--:|:--:|:--:|
+|A380506|	Ruby|	O|
+|A381173|	Pepper|	O|
+|A381217|	Cherokee|	O|
+|A382192|	Maxwell 2|	X|
+|A382251|	Princess|	O|
