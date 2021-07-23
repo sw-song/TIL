@@ -60,7 +60,7 @@
 - [R Square](https://github.com/sw-song/TIL/blob/main/Statistics/R_Square.md)
 - [df.corr() | correlation coefficient - pearson, spearman, kendall tau](https://github.com/sw-song/TIL/blob/main/Statistics/corr.md)
 - [scipy.stats.kstest() | Kolmogorov-Smirnov Test](https://github.com/sw-song/TIL/blob/main/Statistics/kstest.md)
-- [statsmodels.api.OLS.from_formula('y ~ x1+x2+x3..', data=df)]
+- [(statsmodels.api)OLS.from_formula('y ~ x1+x2+x3..', data=df)](https://github.com/sw-song/TIL/blob/main/Statistics/ols_regression.md)
 
 
 ---
