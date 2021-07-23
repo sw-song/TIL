@@ -58,6 +58,11 @@
 
 ### Statistics
 - [R Square](https://github.com/sw-song/TIL/blob/main/Statistics/R_Square.md)
+- [df.corr() | correlation coefficient - pearson vs spearman]
+- [scipy.stats.kstest() | Kolmogorov-Smirnov Test]
+- [statsmodels.api.OLS.from_formula('y ~ x1+x2+x3..', data=df)]
+
+
 ---
 
 ### R
@@ -80,6 +85,7 @@
 - [*PROGRAMMERS | WHERE LIKE - %upper or lower?% / WHERE BINARY](https://github.com/sw-song/TIL/blob/main/SQL/where_like_upper_lower.md)
 - [*PROGRAMMERS | IF / CASE](https://github.com/sw-song/TIL/blob/main/SQL/if_or_case.md)
 - [*PROGRAMMERS | WITH + SELECT DISTINCT + GROUP BY~HAVING](https://github.com/sw-song/TIL/blob/main/SQL/with_groupby_having.md)
+- [*PROGRAMMERS | Subquery / from 2 table(copy)](https://github.com/sw-song/TIL/blob/main/SQL/subquery_or_2table.md)
 ---
 
 ### Terminal & Git
