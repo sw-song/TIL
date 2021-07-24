@@ -12,7 +12,7 @@
 ### Pandas DataFrame
 - [reset_index(drop=True)](https://github.com/sw-song/TIL/blob/main/Pandas_DataFrame/reset_index.md)
 - [df[col].ffill()](https://github.com/sw-song/TIL/blob/main/Pandas_DataFrame/ffill.md)
-- [pd.melt(df, id_vars="y_class", var_name="X_features", value_name="values" )]
+- [pd.melt(df, id_vars, value_vars, var_name, value_name)](https://github.com/sw-song/TIL/blob/main/Pandas_DataFrame/melt.md)
 ---
 
 ### Feature Engineering
