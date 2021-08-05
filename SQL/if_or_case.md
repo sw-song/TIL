@@ -3,7 +3,7 @@
 2. [Mysql - LIKE, IF, CASE](https://sikaleo.tistory.com/36)
 
 
-## 프로그래머스 | String, Date | 이름에 el이 들어가는 동물 찾기
+## 프로그래머스 | String, Date | 중성화 여부 파악하기
 
 ### 문제 설명
 
