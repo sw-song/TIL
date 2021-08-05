@@ -75,6 +75,8 @@
 
 ### SQL
 - [INNER JOIN vs OUTER JOIN](https://github.com/sw-song/TIL/blob/main/SQL/inner_outer_join.md)
+- [*프로그래머스 | GROUP BY | 동명 동물 수 찾기](https://github.com/sw-song/TIL/blob/main/SQL/having.md)
+- [*프로그래머스 | GROUP BY | 입양 시각 구하기(1)](https://github.com/sw-song/TIL/blob/main/SQL/use_alias.md)
 - [*프로그래머스 | GROUP BY | 입양 시각 구하기(2)](https://github.com/sw-song/TIL/blob/main/SQL/recursive.md)
 - [*프로그래머스 | IS NULL | NULL 처리하기](https://github.com/sw-song/TIL/blob/main/SQL/ifnull.md)
 - [*프로그래머스 | JOIN | 없어진 기록 찾기](https://github.com/sw-song/TIL/blob/main/SQL/join_without_null.md)
