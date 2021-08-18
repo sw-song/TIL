@@ -89,6 +89,7 @@
 - [*프로그래머스 | Summer/Winter Coding(2019) | 우유와 요거트가 담긴 장바구니](https://github.com/sw-song/TIL/blob/main/SQL/with_groupby_having.md)
 - [*프로그래머스 | 2021 Dev-Matching: 웹 백엔드 개발자(상반기) | 헤비 유저가 소유한 장소](https://github.com/sw-song/TIL/blob/main/SQL/subquery_or_2table.md)
 - [*LeetCode | 181. Employees Earning More Than Their Managers](https://github.com/sw-song/TIL/blob/main/SQL/double_table.md)
+- [*leet code | 626. Exchange Seats](https://github.com/sw-song/TIL/blob/main/SQL/odd_even_change.md)
 ---
 
 ### Terminal & Git
