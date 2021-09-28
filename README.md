@@ -3,7 +3,7 @@
 ### C
 - [1d/2d-array with pointer](https://github.com/sw-song/TIL/blob/main/C/arr_pnt.c)
 - [show address in 2d-array](https://github.com/sw-song/TIL/blob/main/C/address_2d_array.c)
-
+---
 
 ### Data Preprocessing
 - [Normalization vs Standardization](https://github.com/sw-song/TIL/blob/main/Data_Preprocessing/Normalization_vs_Standardization.md)
