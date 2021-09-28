@@ -1,5 +1,7 @@
-# TIL(Today I Learned) - Statistics, Data Science, ML/DL, Python, Git
+# TIL(Today I Learned) - C, Statistics, Data Science, ML/DL, Python, Git
 
+### C
+- [1d/2d-array with pointer](https://github.com/sw-song/TIL/blob/main/C/arr_pnt.c)
 
 
 ### Data Preprocessing
