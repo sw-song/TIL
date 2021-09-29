@@ -3,6 +3,7 @@
 ### C
 - [1d/2d-array with pointer](https://github.com/sw-song/TIL/blob/main/C/arr_pnt.c)
 - [show address in 2d-array](https://github.com/sw-song/TIL/blob/main/C/address_2d_array.c)
+- [malloc and realloc](https://github.com/sw-song/TIL/blob/main/C/realloc.c)
 ---
 
 ### Data Preprocessing
