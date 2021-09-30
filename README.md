@@ -6,7 +6,7 @@
 - [malloc and realloc](https://github.com/sw-song/TIL/blob/main/C/realloc.c)
 - [linked list - make single node](https://github.com/sw-song/TIL/blob/main/C/single_node.c)
 - [linked list - make multi node](https://github.com/sw-song/TIL/blob/main/C/linked_list.c)
-- [binary search tree - malloc and free](https://github.com/sw-song/TIL/blob/main/C/binary_search_tree.c)
+- [binary search tree - malloc and free](https://github.com/sw-song/TIL/blob/main/C/bin_search_tree.c)
 ---
 
 ### Data Preprocessing
