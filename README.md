@@ -7,6 +7,7 @@
 - [linked list - make single node](https://github.com/sw-song/TIL/blob/main/C/single_node.c)
 - [linked list - make multi node](https://github.com/sw-song/TIL/blob/main/C/linked_list.c)
 - [binary search tree - malloc and free](https://github.com/sw-song/TIL/blob/main/C/bin_search_tree.c)
+- [size_t in C](https://github.com/seungson/TIL/blob/main/C/size_t.md)
 ---
 
 ### Data Preprocessing
