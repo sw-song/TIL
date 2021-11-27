@@ -42,7 +42,8 @@
 - [make_pipeline(from sklearn.pipeline)]
 - [XGBoost(Regression/Classification)](https://github.com/seungson/TIL/blob/main/Machine_Learning/XGBoost.md)
 - [lightgbm(Regression/Classification)](https://github.com/seungson/TIL/blob/main/Machine_Learning/LGBM.md)
-- [basic k-means clustering](https://github.com/seungson/TIL/blob/main/Machine_Learning/k_means.md)
+- [basic k-means clustering](https://github.com/seungson/TIL/blob/main/Machine_Learning/k_means.ipynb)
+- [basic linear regression](https://github.com/seungson/TIL/blob/main/Machine_Learning/linear_regression.ipynb)
 ---
 
 ### Deep Learning (Modeling)
