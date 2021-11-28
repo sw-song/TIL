@@ -58,6 +58,7 @@
 - [CGAN - Conditional GAN]
 - [pix2pix model : CycleGAN vs StarGAN](https://github.com/seungson/TIL/blob/main/Deep_Learning/CycleGAN_vs_StarGAN.md)
 - [GAN : Unpaired Image to Image Translation](https://github.com/seungson/TIL/blob/main/Deep_Learning/GAN_Image_to_Image_Translation.md)
+- [keras basic(CNN)](https://github.com/seungson/TIL/blob/main/Deep_Learning/keras_basic.ipynb)
 ---
 
 ### Model Evaluation
