@@ -81,6 +81,7 @@
 - [(statsmodels.api)OLS.from_formula('y ~ x1+x2+x3..', data=df)](https://github.com/sw-song/TIL/blob/main/Statistics/ols_regression.md)
 - [범주형/연속형 변수 조합에 따른 가설 검정 방법](https://github.com/sw-song/TIL/blob/main/Statistics/hypothesis.md)
 - [ARIMA](https://github.com/sw-song/TIL/blob/main/Statistics/ARIMA.md)
+- [중심극한정리 샘플링테스트](https://github.com/sw-song/TIL/blob/main/Statistics/central_limit_theorem.ipynb)
 ---
 
 ### R
