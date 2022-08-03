@@ -64,6 +64,7 @@
 - [GAN : Unpaired Image to Image Translation](https://github.com/sw-song/TIL/blob/main/Deep_Learning/GAN_Image_to_Image_Translation.md)
 - [keras basic(CNN)](https://github.com/sw-song/TIL/blob/main/Deep_Learning/keras_basic.ipynb)
 - [Representation learning](https://github.com/sw-song/TIL/blob/main/Deep_Learning/representation_learning.ipynb)
+- [type of classification and activation function](https://github.com/sw-song/TIL/blob/main/Deep_Learning/multilabel_classification.ipynb)
 ---
 
 ### Model Evaluation
